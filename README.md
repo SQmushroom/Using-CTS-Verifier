@@ -1,16 +1,21 @@
 # Using-CTS-Verifier
--Ubuntu 16.04
--Android 5.1
 
-Install OpenJDK on Ubuntu 16.04
+
+-Ubuntu 16.04 on VirtualBox
+
+-Android 5.1 RedMi
+
+# Install OpenJDK on Ubuntu 16.04
 
 >sudo add-apt-repository ppa:openjdk-r/ppa  
 >sudo apt-get update   
 >sudo apt-get install openjdk-7-jre  
 
-If the java version is not correct, you can change the default java version.
+If the java version is not correct, you can change the default java version by typing
 
 >sudo update-alternatives --config java
+
+and choose the correct version.
 
 # Install Android SDK on Ubuntu
 
@@ -27,7 +32,7 @@ Open the terminal and open the file. For example:
 
 Now the Android SDK Manager will show up and you can continue to install packages.
 
-Oen a new terminal and type
+Open a new terminal and type
 
 >gedit ~/.bashrc
 
